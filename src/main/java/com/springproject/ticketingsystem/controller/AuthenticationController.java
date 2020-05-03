@@ -12,9 +12,6 @@ import com.springproject.ticketingsystem.model.User;
 @Controller
 public class AuthenticationController {
 
-	// @Autowired
-	// private UserService userService;
-
 	@GetMapping(value = "/login")
 	public ModelAndView getLoginPage() {
 		return new ModelAndView("login", "user", new User());

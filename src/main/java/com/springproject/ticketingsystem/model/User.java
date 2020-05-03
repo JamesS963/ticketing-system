@@ -39,6 +39,7 @@ public class User {
 		this.firstName = firstName;
 		this.surname = surname;
 		this.password = password;
+		this.authorities = authorities;
 	}
 
 	public String getName() {
